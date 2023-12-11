@@ -25,7 +25,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    width: 1440px;
 }
 
 .list {
@@ -157,7 +156,7 @@ body {
 }
 .studio-link:hover::after {
     content: '';
-    width: auto;
+    width: 100%;
     height: 4px;
     flex-shrink: 0;
     border-radius: 2px;
@@ -213,6 +212,7 @@ address {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0 auto;
 }
  /* */
 .background {
@@ -224,6 +224,7 @@ address {
     flex-direction: column;
     align-items: center;
     gap: 48px;
+   
 }
 /* header */
 .main-header {
